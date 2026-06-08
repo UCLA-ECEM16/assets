@@ -1,4 +1,7 @@
 {
+  "head": {
+    "text": "Unknown Device"
+  },
   "signal": [
     {
       "name": "A",
@@ -12,8 +15,5 @@
       "name": "Y",
       "wave": "0.1....0."
     }
-  ],
-  "head": {
-    "text": "Unknown Device"
-  }
+  ]
 }
