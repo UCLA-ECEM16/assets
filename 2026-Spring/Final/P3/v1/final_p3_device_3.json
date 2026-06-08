@@ -1,0 +1,19 @@
+{
+  "signal": [
+    {
+      "name": "A",
+      "wave": "0.10.1.0."
+    },
+    {
+      "name": "B",
+      "wave": "p.......p"
+    },
+    {
+      "name": "Y",
+      "wave": "0..1....0"
+    }
+  ],
+  "head": {
+    "text": "Unknown Device"
+  }
+}
