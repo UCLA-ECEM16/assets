@@ -6,19 +6,19 @@ graph G {
   node [shape=box, style=filled, fillcolor="#d9d9d9", width=0.9, height=0.6, fixedsize=true];
 
   inreg  [label="Register", pos="0,3!"];
-  a      [label="(2,6)", pos="2,2!"];
-  b      [label="(3,15)", pos="4,2!"];
-  c      [label="8", pos="6,2!"];
-  d      [label="5", pos="2,1!"];
-  e      [label="9", pos="4,1!"];
-  f      [label="5", pos="6,1!"];
-  g      [label="3", pos="2,0!"];
-  h      [label="(1,6)", pos="4,0!"];
+  a      [label="(2,6)", pos="2,2!", fontsize="20"];
+  b      [label="(3,15)", pos="4,2!", fontsize="20"];
+  c      [label="8", pos="6,2!", fontsize="20"];
+  d      [label="5", pos="2,1!", fontsize="20"];
+  e      [label="9", pos="4,1!", fontsize="20"];
+  f      [label="5", pos="6,1!", fontsize="20"];
+  g      [label="3", pos="2,0!", fontsize="20"];
+  h      [label="(1,6)", pos="4,0!", fontsize="20"];
   outreg [label="Register", pos="8,2!"];
 
   edge [dir=forward];
 
-  inreg -- a [label="in"];
+  inreg -- a [label="in", fontsize="20"];
   subgraph clusterG0 {
     label="Combinational Logic";
     color="red";
@@ -35,6 +35,6 @@ graph G {
     h -- f;
     f -- c;
   }
-  c -- outreg [label="out"];
+  c -- outreg [label="out", fontsize="20"];
 
 }
