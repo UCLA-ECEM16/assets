@@ -7,13 +7,13 @@ graph G {
 
   inreg  [label="Register", pos="0,3!"];
   a      [label="(2,6)", pos="2,2!", fontsize="20", fontname="Arial bold"];
-  b      [label="(3,15)", pos="4,2!", fontsize="20", fontname="Arial bold"];
-  c      [label="9", pos="6,2!", fontsize="20", fontname="Arial bold"];
-  d      [label="6", pos="2,1!", fontsize="20", fontname="Arial bold"];
+  b      [label="(4,15)", pos="4,2!", fontsize="20", fontname="Arial bold"];
+  c      [label="(8,9)", pos="6,2!", fontsize="20", fontname="Arial bold"];
+  d      [label="5", pos="2,1!", fontsize="20", fontname="Arial bold"];
   e      [label="9", pos="4,1!", fontsize="20", fontname="Arial bold"];
   f      [label="5", pos="6,1!", fontsize="20", fontname="Arial bold"];
   g      [label="3", pos="2,0!", fontsize="20", fontname="Arial bold"];
-  h      [label="(1,6)", pos="4,0!", fontsize="20", fontname="Arial bold"];
+  h      [label="(1,5)", pos="4,0!", fontsize="20", fontname="Arial bold"];
   outreg [label="Register", pos="8,2!"];
 
   edge [dir=forward];
