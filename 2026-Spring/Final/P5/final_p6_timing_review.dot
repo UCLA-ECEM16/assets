@@ -1,0 +1,16 @@
+digraph G {
+  rankdir=LR;
+  node [shape=box fontsize=12];
+  IN [label="External\ninput"];
+  L1 [label="Logic 1"];
+  DFF1 [label="DFF1"];
+  L2 [label="Logic 2"];
+  DFF2 [label="DFF2"];
+  L3 [label="Logic 3"];
+  OUT [label="External\noutput"];
+  L4 [label="Logic 4\nself-loop"];
+  IN -> L1 -> DFF1 [label=" P1"];
+  DFF1 -> L2 -> DFF2 [label=" P2"];
+  DFF2 -> L3 -> OUT [label=" P4"];
+  DFF2 -> L4 -> DFF2 [label=" P3"];
+}
